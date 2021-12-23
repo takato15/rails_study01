@@ -11,6 +11,9 @@
     <%= @book.body %>
 </p>
 
-<%= link_to "Edit", edit_book_path(@book.id), :class => edit_book_path(@book.id) %>
- |
-<%= link_to "Back", "/books", :class => "back" %>
+
+<div class="link_tab">
+    <%= link_to "Edit", edit_book_path(@book.id), class: "link"%>
+     |
+    <%= link_to "Back", books_path, class: "link" %>
+</div>

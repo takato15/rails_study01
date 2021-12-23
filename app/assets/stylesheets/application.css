@@ -18,8 +18,13 @@ body {
     margin: 33px;
 }
 
-.link {
+.link_tab {
     margin-top: 20px;
+}
+
+.link:hover {
+  color: white;
+  background-color: black;
 }
 
 td {
@@ -28,5 +33,10 @@ td {
 }
 
 .flash {
-    color: red
+    color: green
+}
+
+.errors {
+    color: red;
+    margin-bottom: 20px;
 }
